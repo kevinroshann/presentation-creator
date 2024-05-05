@@ -23,7 +23,7 @@ def to_markdown(text):
   return textwrap.indent(text, '> ', predicate=lambda _: True)
 
 def generate_presentation(topic,num):
-  GOOGLE_API_KEY = 'AIzaSyCsRvwDyPyi14PrVSq5w2tk_Uf2kqhGYMM'  # Replace with your actual Google API key
+  GOOGLE_API_KEY = 'google api key'  # Replace with your actual Google API key
   genai.configure(api_key=GOOGLE_API_KEY)
   model = genai.GenerativeModel('gemini-pro')
 
